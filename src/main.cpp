@@ -1,7 +1,9 @@
-#include "unitTest.hpp"
+#include "_Test.hpp"
 
 int main() {
-  // call the unit test function
-  unitTestFunc();
+  /* Start of Test: */
+  TestWrapper();
+  /* End of Test. */
+
   return 0;
 }

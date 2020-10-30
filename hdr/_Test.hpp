@@ -1,12 +1,13 @@
-#ifndef UNITTEST_HPP
-#define UNITTEST_HPP
+#ifndef _TEST_HPP
+#define _TEST_HPP
 
 /* Neccessary STLs */
 #include <iostream>
 
 /* Local Headers */
 #include "utilities.hpp"
+#include "findStrings.hpp"
 
-bool unitTestFunc();
+bool TestWrapper();
 
 #endif
